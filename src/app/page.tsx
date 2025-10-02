@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-    <div className="animate-spin">
+    <div className="animate-bounce">
       <Navbar />
       <Hero />
       <RenewableEnergySection />
@@ -19,4 +19,5 @@ export default function Home() {
     </>
   );
 }
+
 
