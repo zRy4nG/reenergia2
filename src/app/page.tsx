@@ -8,12 +8,15 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
+    <div className="animate-spin">
       <Navbar />
       <Hero />
       <RenewableEnergySection />
       <CalculatorSection />
       <FAQ />
       <Footer />
+    </div>
     </>
   );
 }
+
