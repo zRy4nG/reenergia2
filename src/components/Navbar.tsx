@@ -15,7 +15,6 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <div className="flex items-center gap-2">
             <Image src="https://i.imgur.com/Maty9KK.png" alt="Logo" width={40} height={40} />
             <span className="text-xl font-bold text-[#1B5E20]">
@@ -23,7 +22,6 @@ const Navbar = () => {
             </span>
           </div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
             <a 
               href="#home" 
@@ -32,7 +30,7 @@ const Navbar = () => {
               Home
             </a>
             <a 
-              href="#sobre" 
+              href="/about" 
               className="text-[#555555] hover:text-[#4CAF50] font-medium transition-colors duration-300"
             >
               Sobre
@@ -42,7 +40,6 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 text-[#555555] hover:text-[#4CAF50] transition-colors duration-300"
@@ -55,7 +52,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         <div className={`md:hidden transition-all duration-300 ease-in-out ${
           isMenuOpen 
             ? 'max-h-48 opacity-100 pb-4' 
