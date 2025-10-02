@@ -4,20 +4,18 @@ import RenewableEnergySection from '../components/RenewableEnergySection'
 import CalculatorSection from '../components/CalculatorSection'
 import FAQ from '../components/FAQ'
 import Footer from "../components/Footer";
+import FeedbackButton from "../components/FeedbackButton";
 
 export default function Home() {
   return (
     <>
-    <div className="animate-bounce">
       <Navbar />
       <Hero />
       <RenewableEnergySection />
       <CalculatorSection />
       <FAQ />
       <Footer />
-    </div>
+      <FeedbackButton />
     </>
   );
 }
-
-
