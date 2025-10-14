@@ -6,28 +6,24 @@ const Footer = () => {
     {
       title: "Sites confiáveis sobre energia renovável",
       links: [
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" }
+        { text: "Guia sobre transição energética", href: "https://nossaenergia.petrobras.com.br/w/transicao-energetica/tudo-sobre-transicao-energetica-o-que-e-qual-a-importancia-principais-beneficios-e-mais?gad_source=1&gad_campaignid=20943803028&gbraid=0AAAAAqvyogN-H0zE7rCdiUjo8UseD_T8_&gclid=Cj0KCQjw6bfHBhDNARIsAIGsqLh3ccG0SHu2DjtDzUjmCF9-Th9S6QJNeFmm2s5B_37dDORhF3NouWgaAq71EALw_wcB" },
+        { text: "Enel", href: "https://www.enelgreenpower.com/pt" },
+        { text: "Fontes renováveis de energia", href: "https://brasilescola.uol.com.br/geografia/fontes-renovaveis-energia.htm" },
       ]
     },
     {
       title: "Ferramentas para cálculos e estimativas",
       links: [
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" }
+        { text: "Simulador de consumo", href: "https://enel-ce.simuladordeconsumo.com.br/" },
       ]
     },
     {
       title: "Outros",
       links: [
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" },
-        { text: "Link", href: "#" }
+        // { text: "Link", href: "#" },
+        // { text: "Link", href: "#" },
+        // { text: "Link", href: "#" },
+        // { text: "Link", href: "#" }
       ]
     }
   ];
@@ -83,5 +79,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
