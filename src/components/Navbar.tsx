@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <Image src="https://i.imgur.com/Maty9KK.png" alt="Logo" width={40} height={40} />
+            <Image src="https://i.imgur.com/uTWmAIo.png" alt="Logo" width={40} height={40} />
             <span className="text-xl font-bold text-[#1B5E20]">
               ReEnergia
             </span>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center gap-8">
             <a 
-              href="/home" 
+              href="/" 
               className="text-[#555555] hover:text-[#4CAF50] font-medium transition-colors duration-300"
             >
               Home
@@ -91,4 +91,5 @@ const Navbar = () => {
 
 
 export default Navbar;
+
 
