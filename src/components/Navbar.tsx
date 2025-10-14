@@ -24,7 +24,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center gap-8">
             <a 
-              href="#home" 
+              href="/home" 
               className="text-[#555555] hover:text-[#4CAF50] font-medium transition-colors duration-300"
             >
               Home
@@ -35,9 +35,16 @@ const Navbar = () => {
             >
               Sobre
             </a>
-            <button className="bg-[#4CAF50] hover:bg-[#1B5E20] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
-              Login
-            </button>
+
+            <a 
+              href="/auth/login" 
+              className="text-[#555555] hover:text-[#4CAF50] font-medium transition-colors duration-300"
+            >
+              <button className="bg-[#4CAF50] hover:bg-[#1B5E20] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                Login
+              </button>
+            </a>
+            
           </div>
 
           <button
@@ -84,5 +91,6 @@ const Navbar = () => {
     </nav>
   );
 };
+
 
 export default Navbar;
