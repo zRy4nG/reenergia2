@@ -49,7 +49,7 @@ export default function About() {
         },
         {
             icon: 'https://i.imgur.com/A7fiTuf.png',
-            name: "Gabriel da cunha",
+            name: "Gabriel Jonas",
             function: "Professor e orientador",
         },
         {
@@ -139,6 +139,7 @@ export default function About() {
     </>
   );
 }
+
 
 
 
