@@ -23,11 +23,18 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#4CAF50] hover:bg-[#1B5E20] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button
+                onClick={() => document.querySelector('#calc')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-[#4CAF50] hover:bg-[#1B5E20] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
                 Comece agora
                 <ChevronRight className="inline ml-2 w-5 h-5" />
               </button>
-              <button className="bg-gray-200 hover:bg-white text-[#4CAF50] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+
+              <button
+                onClick={() => document.querySelector('#faq')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-gray-200 hover:bg-white text-[#4CAF50] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
                 <Play className="inline mr-2 w-5 h-5" />
                 Saiba Mais
               </button>
@@ -38,6 +45,7 @@ const Hero = () => {
             <div className="relative">
               <img 
                 src="https://i.imgur.com/pJEwnIW.png"
+                alt="Ilustração energia renovável"
               />
             </div>
           </div>
