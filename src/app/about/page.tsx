@@ -43,7 +43,7 @@ export default function About() {
             function: "Professor e orientador",
         },
         {
-            icon: 'https://i.imgur.com/AvuzihJ.png',
+            icon: 'https://i.imgur.com/236kzM2.png',
             name: "Andressa Bezerra",
             function: "Professor e orientador",
         },
@@ -139,6 +139,7 @@ export default function About() {
     </>
   );
 }
+
 
 
 
