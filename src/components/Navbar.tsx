@@ -68,14 +68,14 @@ const Navbar = () => {
         }`}>
           <div className="flex flex-col gap-4 pt-4 border-t border-gray-100">
             <a 
-              href="#home" 
+              href="/" 
               className="text-[#555555] hover:text-[#4CAF50] font-medium transition-colors duration-300 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </a>
             <a 
-              href="#sobre" 
+              href="/about" 
               className="text-[#555555] hover:text-[#4CAF50] font-medium transition-colors duration-300 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -95,3 +95,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
