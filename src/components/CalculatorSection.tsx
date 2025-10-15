@@ -20,7 +20,7 @@ const CalculatorSection = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section id="calc" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
@@ -109,5 +109,6 @@ const CalculatorSection = () => {
     </section>
   );
 };
+
 
 export default CalculatorSection;
