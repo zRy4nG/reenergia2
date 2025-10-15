@@ -81,12 +81,14 @@ const Navbar = () => {
             >
               Sobre
             </a>
-            <button 
-              className="bg-[#4CAF50] hover:bg-[#1B5E20] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 w-fit"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Login
-            </button>
+            <a href="/auth/login" onClick={() => setIsMenuOpen(false)}>
+              <button 
+                className="bg-[#4CAF50] hover:bg-[#1B5E20] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 w-fit"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Login
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -95,4 +97,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
