@@ -72,7 +72,7 @@ export default function About() {
                                 <div className="flex">
                                     <div className={`inline-flex rounded-full`}>
                                         <Image
-                                            className="rounded rounded-[10px] w-[120px] h-[120px]"
+                                            className="rounded rounded-[10px] max-w-[120px] max-h-[120px]"
                                             src={energy.icon}
                                             width={120}
                                             height={120}
@@ -134,4 +134,5 @@ export default function About() {
     </>
   );
 }
+
 
