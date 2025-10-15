@@ -10,29 +10,29 @@ export default function About() {
             function: "Desenvolvedor, Tech Lead",
         },
         {
-            icon: 'https://i.imgur.com/oTdYqb0.png',
+            icon: 'https://i.imgur.com/Y2e5JWM.png',
             name: "Ryan Reis",
-            function: "Desenvolvedor, Tech Lead",
+            function: "Desenvolvedor, Programador Frontend",
         },
         {
             icon: 'https://i.imgur.com/VG6xdHd.png',
             name: "J.Victor Reis",
-            function: "Desenvolvedor, Tech Lead",
+            function: "Desenvolvedor, Programador Backend",
         },
         {
             icon: 'https://i.imgur.com/tatFErB.png',
             name: "P.Levy Ponciano",
-            function: "Desenvolvedor, Tech Lead",
+            function: "Desenvolvedor, Copywriter",
         },
         {
-            icon: 'https://i.imgur.com/C9zGGfg.png',
+            icon: 'https://i.imgur.com/zcnQdVf.png',
             name: "Lian Carvalho",
-            function: "Desenvolvedor, Tech Lead",
+            function: "Desenvolvedor, Designer",
         },
         {
             icon: 'https://i.imgur.com/tGXQGrH.png',
             name: "Ryan Giló",
-            function: "Desenvolvedor, Tech Lead",
+            function: "Testador",
         },
     ];
 
@@ -134,3 +134,4 @@ export default function About() {
     </>
   );
 }
+
