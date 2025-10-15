@@ -3,9 +3,11 @@
 import React, { useState } from 'react';
 import { Leaf, Menu, X } from 'lucide-react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -15,7 +17,11 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
+          
+          <div 
+            className="flex items-center gap-2 cursor-pointer select-none"
+            onClick={() => router.push('/')}
+          >
             <Image src="https://i.imgur.com/uTWmAIo.png" alt="Logo" width={40} height={40} />
             <span className="text-xl font-bold text-[#1B5E20]">
               ReEnergia
@@ -41,7 +47,6 @@ const Navbar = () => {
                 Login
               </button>
             </a>
-            
           </div>
 
           <button
@@ -89,7 +94,4 @@ const Navbar = () => {
   );
 };
 
-
 export default Navbar;
-
-
