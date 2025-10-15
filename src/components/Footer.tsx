@@ -15,13 +15,14 @@ const Footer = () => {
       title: "Ferramentas para cálculos e estimativas",
       links: [
         { text: "Simulador de consumo", href: "https://enel-ce.simuladordeconsumo.com.br/" },
+        { text: "Simulador de energia solar", href: "https://www.intelbras.com/pt-br/energia-solar/simulador" },
       ]
     },
     {
       title: "Outros",
       links: [
-        // { text: "Link", href: "#" },
-        // { text: "Link", href: "#" },
+        { text: "Energias Renováveis: buscando por uma matriz energética sustentável", href: "https://energiasroraima.com.br/wp-content/uploads/2020/01/ENERGIA-RENOVAVEL_Energias-Renov%C3%A1veis-buscando-por-uma-matriz-energ%C3%A9tica-sustent%C3%A1vel.pdf" },
+        { text: "Geração de energias renováveis no Brasil", href: "https://www.interciencia.net/wp-content/uploads/2018/10/680-HORST-43_10.pdf" },
         // { text: "Link", href: "#" },
         // { text: "Link", href: "#" }
       ]
@@ -82,3 +83,4 @@ const Footer = () => {
 
 
 export default Footer;
+
