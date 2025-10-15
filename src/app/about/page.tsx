@@ -52,6 +52,11 @@ export default function About() {
             name: "Gabriel da cunha",
             function: "Professor e orientador",
         },
+        {
+            icon: 'https://i.imgur.com/91aDSTp.png',
+            name: "Régis Nogueira",
+            function: "Professor e orientador",
+        },
     ];
 
   return (
@@ -134,5 +139,6 @@ export default function About() {
     </>
   );
 }
+
 
 
